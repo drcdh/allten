@@ -14,5 +14,7 @@ This will likely involve dynamic programming. Consider the number of possibiliti
     opam install ocaml-lsp-server odoc ocamlformat utop
 https://ocaml.org/docs/your-first-program#minimum-setup
 
+    eval $(opam env)
+
     dune build
-    dune exec allten
+    dune exec ./allten.exe
